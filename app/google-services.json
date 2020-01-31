@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "491548507853",
+    "firebase_url": "https://movieappadminpanel13.firebaseio.com",
+    "project_id": "movieappadminpanel13",
+    "storage_bucket": "movieappadminpanel13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491548507853:android:fa04946627e764a687f384",
+        "android_client_info": {
+          "package_name": "com.itonemm.movieapp13"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491548507853-9fevg923818autkurgrbdmg49s49ergn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.itonemm.movieapp13",
+            "certificate_hash": "bc21fbdff00b72677bdece00b00c2e7be23ee5b4"
+          }
+        },
+        {
+          "client_id": "491548507853-epnkvb13t95n6l3r7l56608ins3ni9jr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXCOS64iKpPNJn9SajcfVn7LgE8rl-eBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491548507853-epnkvb13t95n6l3r7l56608ins3ni9jr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

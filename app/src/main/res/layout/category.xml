@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="400dp"
+    android:layout_height="250dp">
+
+    <ImageView
+        android:id="@+id/close_category"
+        android:layout_gravity="right"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_close"
+        android:background="@color/colorRed"
+        android:tint="@color/colorLightGray"/>
+
+    <EditText
+        android:paddingLeft="20dp"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:id="@+id/category_name"
+        android:background="@drawable/searchbg"
+        android:hint="Category Name"
+        android:textColorHint="@color/colorAccent"
+        android:layout_margin="20dp"/>
+
+    <LinearLayout
+
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        <Button
+            android:background="@drawable/searchbg"
+            android:backgroundTint="@color/colorGreen"
+            android:textColor="@color/colorLightGray"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Save"
+            android:layout_weight="1"
+            android:id="@+id/btn_save_category"/>
+        <Button
+            android:background="@drawable/searchbg"
+            android:backgroundTint="@color/colorRed"
+            android:elevation="20dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+
+            android:textColor="@color/colorLightGray"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Cancel"
+            android:id="@+id/btn_cancel_category"/>
+
+
+
+    </LinearLayout>
+</LinearLayout>

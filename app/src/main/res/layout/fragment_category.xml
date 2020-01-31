@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoryFragment"
+    android:background="@color/colorPrimaryDark">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/edt_search_category"
+            android:hint="Search Categories"
+            android:textColorHint="@color/colorAccent"
+            android:textColor="@color/colorAccent"
+            android:drawableRight="@drawable/ic_search"
+            android:drawableTint="@color/colorAccent"
+            android:background="@drawable/searchbg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <ListView
+            android:layout_below="@id/edt_search_category"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lstview"/>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="50dp"
+            android:id="@+id/add_category"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_add"
+            android:tint="@color/colorPrimary"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="50dp"
+            android:elevation="20dp"
+            />
+
+
+    </RelativeLayout>
+
+</FrameLayout>
